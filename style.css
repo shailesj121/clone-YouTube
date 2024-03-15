@@ -1,0 +1,308 @@
+@keyframes opacitytransition {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3a3a3a00;
+}
+
+sidebar:hover::-webkit-scrollbar-thumb {
+  background: #a1a1a1;
+  border: 0px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+
+.wid-10per {
+  width: 10%;
+}
+.wid-20per {
+  width: 20%;
+}
+.wid-30per {
+  width: 30%;
+}
+.wid-40per {
+  width: 40%;
+}
+.wid-50per {
+  width: 50%;
+}
+.wid-60per {
+  width: 60%;
+}
+.wid-70per {
+  width: 70%;
+}
+.wid-80per {
+  width: 80%;
+}
+.wid-100per{
+  width: 100%;
+}
+.wid-400px {
+  width: 400px;
+}
+.wid-360px{
+  width: 360px;
+}
+.max-wd-360px{
+  max-width: 360px;
+}
+.padd-top-50px{
+  padding-top: 50px;
+}
+.mar-top-50px{
+  margin-top: 50px;
+}
+.grid{
+  display: grid;
+}
+.wid-inherit{
+  width: inherit;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+.pos-fixed{
+  position: fixed;
+}
+.top-0{
+  top: 0;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-1 {
+  opacity: 1;
+}
+.opacitytransition-1 {
+  opacity: 1;
+  animation: opacitytransition 1s ease-in-out;
+}
+
+.border-box{
+  box-sizing: border-box;
+}
+
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-bottom {
+  align-items: bottom;
+}
+.justify-right {
+  justify-content: right;
+}
+.align-top {
+  align-items: top;
+}
+.justify-left {
+  justify-content: left;
+}
+
+.flot-lft {
+  float: left;
+}
+
+.margin-lft-20px {
+  margin-left: 20px;
+}
+/* .marg-lft-195 {
+margin-left: 195px;
+} */
+
+.height-50px {
+  height: 50px;
+}
+
+.wid-235px {
+  display: block;
+  width: 235px;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+.dark {
+  background-color: #0f0f0f;
+  color: white;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+.notifi-inner-div {
+  font-family: auto;
+  font-weight: normal;
+  text-align: left;
+}
+
+.list-style-non ul {
+  list-style: none;
+}
+
+.padding-zero {
+  padding: 0px;
+}
+.margin-zero {
+  margin: 0px;
+}
+.margin-right-10 {
+  margin-right: 10px;
+}
+.padd-lr-20px {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.padding-20 {
+  padding: 20px;
+}
+.height-calc-50px {
+  height: calc(100vh - 50px);
+}
+.ovrflo-x-scroll {
+  overflow-y: scroll;
+}
+
+.multi-line-padd-10 li {
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.muilti-li-background li:hover {
+  background: #303030;
+}
+.videoinfo p {
+margin: 0px;
+}
+.mar-top-15px{
+  margin-top: 15px;
+}
+.color-gray {
+  color: #aaa;
+}
+.font-dot88rem {
+  font-size: .88rem;
+}
+.line-hight-20px{
+  line-height: 20px;
+}
+.padd-20px{
+  padding: 20px;
+}
+.hei-285px{
+  height: 285px;
+}
+
+.grid-item-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.grid-item-4{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+
+.thumbnailVideo {
+  border: 0px;
+  border-radius: 15px;
+  /* width: inherit; */
+  width: 100%;
+}
+.userimage {
+  border: 0px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 15px 15px 0px 0px;
+}
+
+/* sreach form style */
+
+.form-search input {
+  background-color: #0f0f0f;
+  border: 1px solid rgba(128, 128, 128, 0.521);
+  padding: 8px 10px;
+  border-radius: 15px 0px 0px 15px;
+  width: 450px;
+}
+.form-search button {
+  background-color: #303030;
+  border: 1px solid rgba(128, 128, 128, 0.521);
+  padding: 8px 18px;
+  border-left: 0px;
+  border-radius: 0px 15px 15px 0px;
+  color: white;
+}
+.form-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border-box{
+  box-sizing: border-box;
+}
+
+.grid-item-3{
+  display: grid;
+  grid-template-columns: 33.333% 33.333% 33.333%;
+}
+.grid-item-4{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-item-1 {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.flex-gap-16px{
+display: flex;
+    align-items: center;
+    gap: 16px;
+}
